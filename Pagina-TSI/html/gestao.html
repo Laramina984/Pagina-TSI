@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="nome">
+        <img src="../imagens/img1.png" alt="logo if" id="logo_if">
+          <div id="ifsp"> <h1>IFSP</h1>
+            <h1>Câmpus Birigui</h1></div>
+        </div>
+        <form  class="form-busca">
+            <div class="input-icons">
+                <input class="form-busca" type="text" name="pesquisa" id="pesquisa" placeholder=" &#xF002; Pesquisar" style="font-family:Arial, FontAwesome">
+            </div>
+        </form>
+    </header>
+    <div id="cab2">
+        <button onclick="openNav()" id="bot"><img src="../imagens/menu.png" alt=""></button>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../html/sobretsi.html">Sobre TSI</a>
+        <a href="../html/nde.html">NDE</a>
+        <a href="../html/colegiado.html">Colegiado</a>
+        <a href="../html/cpa.html">CPA</a>
+        <a href="../html/gestao.html">Gestão do Curso</a>
+        <a href="../html/horario.html">Horário das Turmas</a>
+        <a href="../html/regulamento.html">Regulamento e Normas</a>
+        <a href="../html/outrasinfo.html">Outras Informações</a>
+        <a href="../html/index.html">Voltar</a>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <div class="corpo7">
+    <h1>Gestão do Curso</h1>
+    <table  class="tabela1">
+        <tr>
+            <th colspan="2">Gestão do Curso</th>
+            
+            
+        </tr>
+        <tr>
+            <td>Plano de Gestão</td>
+            <td id="td1">
+            <div id="div_tab">
+            <a href="https://drive.ifsp.edu.br/s/qdUc1NHexLKgbM4#pdfviewer">Plano de Gestão 2021-2023</a>
+            <a href="https://drive.ifsp.edu.br/s/xhwhVpGPq6kjIcU#pdfviewer">Plano de Gestão 2021-2023 (Revisado)</a>
+            </div>
+            <p>DIÁRIO OFICIAL:</p>
+            <a href="https://drive.ifsp.edu.br/s/T6oKSBbo927bi68">https://drive.ifsp.edu.br/s/T6oKSBbo927bi68</a>
+            <p>PORTARIA Nº 4.068/IFSP:</p>
+            <a href="https://drive.ifsp.edu.br/s/5NKUHl71iixJzjW">https://drive.ifsp.edu.br/s/5NKUHl71iixJzjW</a>
+        </td>
+        </tr>
+        <tr>
+        <td>Relatório de Gestão</td>
+        <td><a href="https://drive.ifsp.edu.br/s/BcHVpb0U8yE3cL8#pdfviewer">Relatório de Gestão 2021-2022 (PARCIAL)</a></td>
+        </tr>
+
+    </table>
+</div>
+
+
+    <footer>
+        <p>INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE SÃO PAULO - CÂMPUS BIRIGUI - Rua Pedro Cavalo, Nº 709 - Residencial Portal da Pérola II - Birigui-SP - CEP:16201-407 - Fone:(18)3643-1160</p>
+    </footer>
+</body>
+</html>
